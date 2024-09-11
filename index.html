@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheOdinProject: Admin Dashboard Demo</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div id="sidebar">
+        <div id="dash-head">
+            <h1><i class="fa-solid fa-compass"></i> Dashboard</h1>
+        </div>
+        <div id="options-menu">
+            <div id="home-tab" class="dash-tab"><i class="fa-solid fa-house"></i> Home</div>
+            <div id="prof-tab" class="dash-tab"><i class="fa-solid fa-user"></i> Profile</div>
+            <div id="msg-tab" class="dash-tab"><i class="fa-solid fa-message"></i> Messages</div>
+            <div id="hist-tab" class="dash-tab"><i class="fa-solid fa-clock"></i> History</div>
+            <div id="tasks-tab" class="dash-tab"><i class="fa-solid fa-list"></i> Tasks</div>
+            <div id="community-tab" class="dash-tab"><i class="fa-solid fa-users"></i> Communities</div>
+        </div>
+        <div id="settings-menu">
+            <div id="settings-tab" class="dash-tab"><i class="fa-solid fa-gear"></i> Settings</div>
+            <div id="support-tab" class="dash-tab"><i class="fa-solid fa-headset"></i> Support</div>
+            <div id="privacy-tab" class="dash-tab"><i class="fa-solid fa-lock"></i> Privacy</div>
+        </div>
+    </div>
+    <div id="output-container">
+    <div id="head">
+        <div id="header-top-bar">
+        <div id="search-bar">
+            <label for="site-search"><i class="fa-solid fa-magnifying-glass"></i></label>
+            <input type="search" id="site-search" name="search" />
+        </div>
+        <div id="profile-notifications">
+        <div id="notifications"><i class="fa-solid fa-bell"></i></div>
+        <div id="prof-icon"><img class="prof-icon-bubble" title="Photo by Alvin Lenin on Unsplash" src="./assets/alvin-lenin-2ta8OjluZuI-unsplash.jpg"></div>
+        </div>
+        </div>
+        <div id="header-welcome-bar">
+        <div id="welcome">Hello there,</div>
+        <div id="prof-name">
+            <h2>Moaratorium</h2>
+        </div>
+        <div id="buttons">
+            <button id="new-button" class="button">New</button>
+            <button id="upload-button" class="button">Upload</button>
+            <button id="share-button" class="button">Share</button>
+        </div>
+    </div>
+    </div>
+    <div id="workspace">
+    <div id="project-grid-container">
+        <div id="projects-text">
+            <h2>Your Projects:</h2>
+        </div>
+    <div id="project-grid">
+        <div id="proj-1" class="project-block">
+            <h2>Project 1</h2>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Lacinia nibh class quisque primis finibus in. Curae faucibus gravida magnis nullam sollicitudin volutpat rutrum. Ad mattis facilisi dignissim pharetra parturient gravida et. Atempor habitant phasellus varius lectus justo velit efficitur fames. Luctus urna dignissim quisque neque quisque consequat euismod suspendisse.</p>
+            <i class="fa-solid fa-book-bookmark"></i>
+        </div>
+        <div id="proj-2" class="project-block">
+            <h2>Project 2</h2>
+            <p>Suspendisse mauris euismod elementum aliquet gravida eleifend cubilia tincidunt? Ut etiam litora pharetra nostra commodo bibendum. Suspendisse quam sed dapibus nullam pellentesque. Per purus integer malesuada sem egestas cursus habitant. Leo egestas lacus sociosqu sed felis ridiculus. Inceptos nunc amet non nostra finibus efficitur. Lacus dui natoque pretium justo mauris libero inceptos integer. Mollis sapien ipsum dictum pellentesque est tellus integer. Tempor curae non nibh quam orci primis id. Consectetur interdum placerat rhoncus massa imperdiet, proin eu sed.</p>
+            <i class="fa-solid fa-book-bookmark"></i> 
+        </div>
+        <div id="proj-3" class="project-block">
+            <h2>Project 3</h2>
+            <p>Commodo nulla molestie commodo, eros mauris mollis. Bibendum elementum lobortis rutrum massa; molestie sagittis venenatis fringilla. Curae hendrerit nostra egestas vehicula elementum lectus ac. Neque facilisis cursus vitae tempor ut. Imperdiet in torquent netus tempus purus feugiat justo. Viverra faucibus pharetra posuere conubia pretium? Mi sapien ridiculus elementum hac leo hendrerit. Orci lectus proin mauris pellentesque non potenti metus. Scelerisque sollicitudin pellentesque maecenas sapien sit maximus.</p>
+            <i class="fa-solid fa-book-bookmark"></i>
+        </div>
+        <div id="proj-4" class="project-block">
+            <h2>Project 4</h2>
+            <p>Sociosqu dapibus augue at senectus donec praesent. Class velit justo penatibus himenaeos, ullamcorper vitae fusce. Integer imperdiet viverra neque orci quisque. Morbi vel nullam per suspendisse morbi natoque. Ullamcorper ad semper dolor cubilia montes quis pellentesque posuere. Donec nibh interdum arcu fusce sed nisi. Sapien ipsum accumsan platea velit, purus venenatis vulputate nostra.</p>
+            <i class="fa-solid fa-book-bookmark"></i>
+        </div>
+        </div>
+    </div>
+    <div id="news">
+        <div id="announcements-text" class="news-text">Announcements:</div>
+        <div id="announce-block"  class="news-block">
+            <div id="announce-1" class="announce-item">Tincidunt consequat nam diam faucibus efficitur penatibus. Convallis tempus nulla lacus donec ligula class elit egestas. Himenaeos placerat accumsan habitasse porta morbi mollis pretium. Rutrum egestas viverra curabitur eros eros vehicula. Vivamus tellus finibus at viverra venenatis dui; magnis sagittis. Maximus enim dolor montes facilisi euismod fermentum cubilia ipsum ipsum?</div>
+            <div id="announce-2" class="announce-item">Lacinia vestibulum inceptos, id quis nec volutpat taciti integer vulputate. Arcu hendrerit hac; diam penatibus mi phasellus nullam. Vitae sed rhoncus ultricies felis mauris. Magna egestas eros massa torquent iaculis? Mi vel eu montes habitasse nisi sapien nullam sodales. Nunc mi fermentum scelerisque vulputate aliquam faucibus ut varius. Suscipit ligula libero turpis dui efficitur! Ultrices tincidunt potenti facilisi eu est torquent! Nunc quis vulputate per velit molestie.</div>
+            <div id="announce-3" class="announce-item">Consequat tristique nulla lacus inceptos curae. Aliquet eleifend ipsum ultrices vitae diam sit. Cras curae lacinia rhoncus habitasse vivamus semper sit? Elementum venenatis ex class tortor adipiscing curae nisi. Vestibulum mi morbi; tincidunt nisi justo sollicitudin. Pretium potenti sociosqu semper ultricies litora platea est efficitur. Eleifend fringilla bibendum hac magna accumsan phasellus nulla rutrum? Neque augue accumsan; massa fusce velit commodo pellentesque.</div>
+        </div>
+        <div id="trending-text" class="news-text">Trending:</div>
+        <div id="trending-block" class="news-block">
+            <div id="profile-1" class="profile-item">
+                <h2>@ByteSorcerer</h2>
+                <p class="prof-tagline">"Crafting code with a touch of magic and a dash of wonder."</p>
+            </div>
+            <div id="profile-2" class="profile-item">
+                <h2>@CodeWarden</h2>
+                <p class="prof-tagline">"Guarding the realms of programming with wisdom and precision."</p>
+            </div>
+            <div id="profile-3" class="profile-item">
+                <h2>@QuantumMage</h2>
+                <p class="prof-tagline">"Weaving spells of logic through the fabric of the digital cosmos."</p>
+            </div>
+            <div id="profile-4" class="profile-item">
+                <h2>@HexCrafter</h2>
+                <p class="prof-tagline">"Forging intricate algorithms with the skill of an ancient artisan."</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
